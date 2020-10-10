@@ -1,0 +1,7 @@
+<launch>
+<node pkg="turtlesim" type="turtlesim_node" name="turtlesim">
+</node>
+<node pkg="assignment" type="gtg_grid.py" name="turtlebot_controller" args="1 1.5 8 1.5 8 3.5 1 3.5 1 5.5 8 5.5 8 7.5 1 7.5">
+</node>
+
+</launch>
